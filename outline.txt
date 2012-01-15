@@ -1,0 +1,6 @@
+title.haml
+author.haml
+code.haml
+quote.haml
+table.haml
+thanks.haml

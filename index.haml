@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    %title Presentation
+    %meta{:charset => "utf-8"}/
+    %script{:src => "slides.js"}
+
+  %body{:style => "display: none"}
+    %section.slides.layout-regular.template-default
+      - files = File.read("outline.txt")
+      - files.split.each do |name|
+        = render_slide(name)
