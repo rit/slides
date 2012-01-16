@@ -536,7 +536,7 @@ function addPrettify() {
   var el = document.createElement('script');
   el.type = 'text/javascript';
   // el.src = PERMANENT_URL_PREFIX + 'prettify.js';
-  el.src = 'prettify.js';
+  el.src = 'assets/prettify.js';
   el.onload = function() {
     prettyPrint();
   }
@@ -558,7 +558,7 @@ function addGeneralStyle() {
   el.rel = 'stylesheet';
   el.type = 'text/css';
   // el.href = PERMANENT_URL_PREFIX + 'styles.css';
-  el.href = 'styles.css';
+  el.href = 'assets/styles.css';
   document.body.appendChild(el);
   
   var el = document.createElement('meta');
