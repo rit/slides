@@ -97,7 +97,7 @@ body {
 }
 
 .slides.template-default > article:not(.nobackground):not(.biglogo) {
-  background: url(/assets/logo.png) 710px 625px no-repeat;  
+  background: url(/assets/logo.png) 720px 650px no-repeat;
   
   background-color: white;  
 } 
